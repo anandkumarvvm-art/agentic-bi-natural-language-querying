@@ -1,20 +1,16 @@
 import streamlit as st
-import requests
-import pandas as pd
-import plotly.express as px
-from datetime import datetime, timedelta, timezone
-import random
-import os
-try:
-    from ui.render_utils import render_data_results
-except ImportError:
-    # Fallback if running from root
-    from render_utils import render_data_results
 
-try:
-    from seed_db import seed as seed_data
-except ImportError:
-    seed_data = None
+from ui.theme import configure_theme
+from ui.sidebar import render_sidebar
+from ui.header import render_header
+from pages.dashboard import render_dashboard
+
+configure_theme()
+
+render_sidebar()
+render_header()
+render_dashboard()
+
 
 # Page Config
 st.set_page_config(
