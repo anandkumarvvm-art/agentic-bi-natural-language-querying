@@ -126,27 +126,7 @@ with st.sidebar:
     
     st.markdown("---")
     
-    # 2. Developer Profile Profile
-    st.markdown("### 👨‍💻 Developer")
-    st.markdown("""
-    <div style='background: linear-gradient(135deg, rgba(114, 103, 239, 0.2) 0%, rgba(0, 210, 255, 0.2) 100%); 
-                padding: 15px; border-radius: 10px; border: 2px solid rgba(114, 103, 239, 0.4);'>
-        <p style='margin: 5px 0; color: #00D2FF; font-weight: 600;'>Ratnesh Kumar Singh</p>
-        <p style='margin: 5px 0; font-size: 0.9rem; color: #e0e0e0;'>
-            Data Scientist (AI/ML) | 4+ Yrs
-        </p>
-        <div style='margin-top: 10px; font-size: 0.9rem;'>
-            <a href='https://github.com/Ratnesh-181998' style='color: #ffffff; text-decoration: none; background-color: #24292e; padding: 4px 8px; border-radius: 4px; border: 1px solid #444;'>
-                🔗 GitHub
-            </a> 
-            &nbsp;
-            <a href='https://www.linkedin.com/in/ratneshkumar1998/' style='color: #ffffff; text-decoration: none; background-color: #0077b5; padding: 4px 8px; border-radius: 4px; border: 1px solid #444;'>
-                💼 LinkedIn
-            </a>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
-    
+    # 2. Developer Profile Profile    
     st.info("**Agentic BI** empowers enterprises to query data using natural language, leveraging a Multi-Agent architecture for high-precision SQL generation and visualization.")
 
     st.markdown("---")
